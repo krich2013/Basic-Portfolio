@@ -1,0 +1,22 @@
+header {
+    background: white;
+    width: 960px;
+  }  
+
+#NameBox {
+    background: #4aaaa5;   
+    float: left;
+}
+
+#NavBar {
+
+}
+
+h1 {
+  padding: 20px 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #eee;
+  text-align: center;
+}
