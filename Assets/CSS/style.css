@@ -67,10 +67,17 @@ section {
         text-decoration: none;
     }
     
-    h2 {
+    h2 .h2 {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bold;
         color: #4aaaa5;
+        margin: 20px;
+        font-size: 20px;
+    }
+
+    h5 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: none;
     }
     
 #Name {
@@ -134,6 +141,27 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.card {
-    margin: 20px;
+.card-deck {
+    width: 960px;
+    margin: auto;
+}
+
+.card-body {
+    z-index: 3;
+    position: absolute;
+    bottom: 5px;
+    background: #4aaaa5;
+    color: white;
+    width: 100%;
+    text-align: center;
+    vertical-align: center;
+    padding: 1rem; 
+}
+
+.card-title {
+    margin-bottom: 0px;
+}
+
+.card-deck {
+    clear: both;
 }
