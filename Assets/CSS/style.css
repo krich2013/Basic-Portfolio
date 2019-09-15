@@ -73,7 +73,21 @@ section {
         color: #4aaaa5;
     }
     
-    
+#Name {
+    padding: 20px;
+    width: 180px;
+    float: left;
+    position: absolute;
+    bottom: 0px;
+    font-size: 28px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background:#4aaaa5;   
+    font-weight: bold;
+    z-index: 3;
+  }
+}    
+
 #Section-Heading {
     padding-bottom: 20px;
     margin: 20px;
@@ -118,4 +132,8 @@ footer {
     bottom: 0px;
     left: 50%;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    margin: 20px;
 }
