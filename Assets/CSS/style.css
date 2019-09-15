@@ -78,6 +78,7 @@ section {
     h5 {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: none;
+        margin-bottom: 0px !important;
     }
     
 #Name {
@@ -140,6 +141,13 @@ footer {
     left: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
+.card {
+    margin: 20px;
+    border: none;
+}
+.card-title {
+    margin-bottom: 0px;
+}
 
 .card-deck {
     width: 960px;
@@ -155,17 +163,10 @@ footer {
     width: 100%;
     text-align: center;
     vertical-align: center;
-    padding: 1rem; 
+    padding: 1rem !important; 
 }
 
-.card-title {
-    margin-bottom: 0px;
-}
 
 .card-deck {
     clear: both;
-}
-
-.card {
-    margin: 20px;
 }
