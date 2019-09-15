@@ -9,13 +9,13 @@ header {
   }  
 
 .Heading-Box {
-    width: 960px;  
+    width: 960px;
+    height: 56px;  
     margin: auto;
   }
 
   h1 {
     padding: 20px;
-    width: 180px;
     float: left;
     position: absolute;
     bottom: 0px;
@@ -25,6 +25,7 @@ header {
     background:#4aaaa5;   
     font-weight: bold;
     z-index: 3;
+    margin-bottom: 0px !important;
   }
 
   #NavBar {
@@ -67,12 +68,20 @@ section {
         text-decoration: none;
     }
     
-    h2 .h2 {
+    h2 {
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bold;
         color: #4aaaa5;
         margin: 20px;
         font-size: 20px;
+    }
+
+    .Section-Heading {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bold;
+        color: #4aaaa5;
+        font-size: 20px;
+        margin-top: 20px;
     }
 
     h5 {
